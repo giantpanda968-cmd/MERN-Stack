@@ -29,7 +29,7 @@ const Signup = () => {
     }
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/auth/signUp",
+        "https://mern-stack-zav6.onrender.com/api/auth/signUp",
         {
           name,
           email,

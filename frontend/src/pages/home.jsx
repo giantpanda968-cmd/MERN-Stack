@@ -28,7 +28,7 @@ const Home = () => {
       };
 
       const response = await axios.get(
-        "http://localhost:3000/api/auth/profile",
+        "https://mern-stack-zav6.onrender.com/api/auth/profile",
         headers,
       );
 
